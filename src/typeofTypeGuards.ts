@@ -1,14 +1,14 @@
-export const Reset = (value: number | string | boolean) => {
+export const TypeofTypeGuard = (value: number | string | boolean) => {
   if (typeof value === 'number') {
-    console.log('typeof number:', value)
+    console.log('typeof:', typeof value)
     return 0
   }
   if (typeof value === 'string') {
-    console.log('typeof string:', value)
+    console.log('typeof:', typeof value)
     return ''
   }
   if (typeof value === 'boolean') {
-    console.log('typeof boolean:', value)
+    console.log('typeof:', typeof value)
     return false
   }
 }
